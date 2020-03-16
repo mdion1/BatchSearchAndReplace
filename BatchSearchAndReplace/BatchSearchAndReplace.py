@@ -1,4 +1,3 @@
-import argparse
 from os import walk
 import sys
 
