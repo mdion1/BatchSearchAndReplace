@@ -25,7 +25,6 @@ def textReplace(filename: str, findReplaceList: list):
 
 if __name__ == "__main__":
     #parse the arguments
-    parser = argparse.ArgumentParser(description='Find and replace text in files in a given directory.')
     if len(sys.argv) != 3:
         print("Provide two arguments: the filepath/name of the find/replace text list, and the path to the search directory.")
     else:
